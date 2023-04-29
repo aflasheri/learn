@@ -35,17 +35,26 @@ class _MyNavigationBarState extends State<MyNavigationBar> {
       bottomNavigationBar: BottomNavigationBar(
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
-                icon: Icon(Icons.home),
+                icon: Icon(
+                  Icons.home,
+                  color: Colors.black,
+                ),
                 label: "siofcjsed",
-                backgroundColor: Color(0xff4A148C)),
+                backgroundColor: Colors.white),
             BottomNavigationBarItem(
-                icon: Icon(Icons.search),
+                icon: Icon(
+                  Icons.search,
+                  color: Colors.black,
+                ),
                 label: "siofcjsed",
-                backgroundColor: Color(0xff4A148C)),
+                backgroundColor: Colors.white),
             BottomNavigationBarItem(
-                icon: Icon(Icons.person),
+                icon: Icon(
+                  Icons.person,
+                  color: Colors.black,
+                ),
                 label: "siofcjsed",
-                backgroundColor: Color(0xff4A148C)),
+                backgroundColor: Colors.white),
           ],
           type: BottomNavigationBarType.shifting,
           currentIndex: _selectedIndex,
